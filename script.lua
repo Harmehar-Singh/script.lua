@@ -47,14 +47,14 @@ local v11 = v9:MakeTab({
 })
 
 -- Setting up features and toggles
-getgenv().AimbotEnabled = false
-getgenv().ESPEnabled = false
-getgenv().InfiniteJumpEnabled = false
+getgenv().AimbotEnabled = true
+getgenv().ESPEnabled = true
+getgenv().InfiniteJumpEnabled = true
 getgenv().NoClipEnabled = false
 getgenv().CFrameWalkEnabled = false
 getgenv().BhopEnabled = false
 getgenv().CFrameWalkSpeed = 0.1
-getgenv().Smoothness = 0.6
+getgenv().Smoothness = 1
 getgenv().AutoFarmEnabled = false
 
 -- Event handlers and main logic for the features
